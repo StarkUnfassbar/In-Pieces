@@ -772,13 +772,31 @@
         overflow-y: scroll;
     }
 
-        .section_1 .swap .block_image img {
-            width: calc(var(--sizeindex) * var(--side-big) * 2);
-            height: calc(var(--sizeindex) * var(--side-small) * 1.85);
+        .section_1 .swap .block_image {
+          top: 45%;
+        }
+
+            .section_1 .swap .block_image img {
+                width: calc(var(--sizeindex) * var(--side-big) * 2);
+                height: calc(var(--sizeindex) * var(--side-small) * 1.85);
+            }
+
+        .section_1 .swap .block_buttons_right {
+          right: 12%;
         }
 
         .section_1 .swap .block_buttons_left {
             top: 25%;
+        }
+
+        .section_1 .swap .block_text {
+          top: 75%;
+          justify-content: left;
+        }
+
+        .section_1 .swap .block_link_phone a {
+          display: flex;
+          bottom: 17%;
         }
 
 
