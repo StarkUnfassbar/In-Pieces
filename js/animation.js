@@ -64,10 +64,10 @@ const linkButtons = document.querySelectorAll('#popupLinkButton');
 
 const melody = document.querySelector('#melody');
 melody.volume = 0.3;
-melody.play();
 
 buttonWelcome.addEventListener('click', () => {
   section0.classList.add('_hidden');
+  melody.play();
 
   setTimeout(function(){
     section1.classList.remove('none');
