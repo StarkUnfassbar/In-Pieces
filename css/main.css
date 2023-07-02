@@ -2862,7 +2862,7 @@ h1, h2, h3, h4, h5, h6, p, body{
             margin: -25px 0 0 -25px;
             height: 35px;
             width: 35px;
-            background: url("..image/texture/red-texture.png") repeat center center/40px 40px;
+            background: url("../image/texture/red-texture.png") repeat center center/40px 40px;
             transform-origin: 80% 20%;
             animation: loading-spinning 0.5s linear infinite forwards;
         }
